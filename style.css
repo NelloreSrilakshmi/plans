@@ -1,0 +1,50 @@
+/* style.css */
+
+.main { 
+    display: flex; 
+    flex-direction: row;
+    gap: 50px;
+    margin-top:50px;
+}
+.card{
+    background-color: aliceblue;
+    width: 300px;
+    height: 600px;
+    padding: 10px 20px; 
+    transition: transform 0.2s; 
+    box-shadow: 10px 20px 3px; 
+}
+.para{
+    text-align: center;
+}
+h1{
+    color: #131010; 
+    text-align: center;
+}
+button{
+    padding: 15px; 
+    border-radius: 30px; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    background-color: rgba(234, 62, 148, 0.959);
+    color: rgba(249, 240, 247, 0.853);
+    margin-left: 100px;
+    margin-right: auto;
+    cursor: pointer;
+}
+.picture{
+    width:300px;
+    height:250px;
+}
+.tick{
+   flex-direction:row;
+}
+
+.fa-check-square{
+    margin-right: 10px;
+}
+.card:hover{
+    transform:scale(1.15);
+}
+
+
